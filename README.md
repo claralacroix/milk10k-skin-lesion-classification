@@ -46,7 +46,7 @@ The first session focused on:
 The distribution of the three main diagnostic categories is:
 
 | Diagnosis | Number of images |
-|-----------|------------------:|
+|-----------|-----------------:|
 | Malignant | 7,268 |
 | Benign | 2,966 |
 | Indeterminate | 246 |
@@ -62,8 +62,11 @@ Every lesion in the dataset has exactly two images.
 
 ```text
 milk10k-skin-lesion-classification/
+
 ├── data/
+│   └── milk10k.zip
 ├── notebooks/
+│   └── Computer_vision_n1.ipynb
 ├── src/
 ├── .gitignore
 └── README.md
