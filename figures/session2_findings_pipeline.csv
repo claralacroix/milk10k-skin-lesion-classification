@@ -1,0 +1,5 @@
+Session 2 finding,Still true on full dataset?,Consequence for the pipeline
+Image manipulation was strongly uneven across 11-class diagnoses; Mucosal melanotic macule had 57.14% altered images.,Yes,Do not use image_manipulation as a model input because it can act as a shortcut for diagnosis.
+Missing anatom_site_general was associated with a different 11-class distribution; Nevus changed by 11.16 percentage points.,Yes,Treat missingness as potentially informative and avoid using anatomical metadata as an unchecked shortcut.
+Histopathology cases were much more often Malignant (72.35%) than single-contributor clinical assessments (2.23%).,Yes,Do not use diagnosis_confirm_type because it is closely related to how the diagnosis was established and can leak target information.
+Each diagnosis_1 class contained 50% clinical close-up and 50% dermoscopic images.,Yes,"Image type is balanced across target classes, but evaluation must still keep both views from the same lesion in the same split."

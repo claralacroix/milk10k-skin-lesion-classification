@@ -1,0 +1,17 @@
+{
+  "Benign": {
+    "class_id": 0,
+    "count": 1924,
+    "weight": 1.17983367983368
+  },
+  "Malignant": {
+    "class_id": 1,
+    "count": 4718,
+    "weight": 0.4811360746078847
+  },
+  "Indeterminate": {
+    "class_id": 2,
+    "count": 168,
+    "weight": 13.511904761904763
+  }
+}

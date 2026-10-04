@@ -1,0 +1,8 @@
+augmentation,parameters,medical_justification
+Horizontal flip,p=0.5,"Diagnosis should not depend on left-right orientation."
+Vertical flip,p=0.5,"Diagnosis should not depend on image orientation."
+Rotation,degrees=15,"Small rotations simulate differences in image acquisition orientation."
+Brightness,0.2,"Mild illumination variation can occur during image acquisition."
+Contrast,0.2,"Mild contrast variation can occur between acquisitions and devices."
+Saturation,0.1,"Small saturation changes model acquisition variation without intentionally changing lesion identity."
+Hue,0.02,"Very small hue changes model minor acquisition colour variation; larger hue changes require caution because colour can be diagnostically meaningful."

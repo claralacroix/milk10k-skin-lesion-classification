@@ -1,0 +1,20 @@
+{
+  "diagnosis_1": {
+    "Benign": 0,
+    "Malignant": 1,
+    "Indeterminate": 2
+  },
+  "11_class": {
+    "BCC": 0,
+    "NV": 1,
+    "BKL": 2,
+    "SCCKA": 3,
+    "MEL": 4,
+    "AKIEC": 5,
+    "DF": 6,
+    "INF": 7,
+    "VASC": 8,
+    "BEN_OTH": 9,
+    "MAL_OTH": 10
+  }
+}
